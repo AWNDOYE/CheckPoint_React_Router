@@ -1,38 +1,75 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: linear-gradient(45deg, #00153e, #05202b); 
+  color: white ;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.NewMovies{
+  margin: 25px;
+  margin-left: 14%;
+  background-color: white;
+  color: #00153e;
+  width: 75%;
+  border-radius: 15px;
+  padding-bottom: 10px;
+}
+.lab{
+  font-weight: bold;
+}
+ h6{
+    font-weight: bold;
+    font-size: 50%;
+}
+.newForm{
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  align-items: center;
+  height: max-content;
+  flex-direction: row;
+}
+.anonceH1{
+  color: gold;
+  font-size: 350%;
+}
+.anonceH4{
+  color:goldenrod ;
+  font-weight: 1000;
+  font-size: 150%;
+}
+.annonce{
+  justify-content: center;
+  background-color :#00153e;
+  padding-bottom: 20%;
+  
+}
+.annonce2{
+  background-color:white;
+  margin: 10px 40px 10px 40px;
+  padding-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.boxVideo{
+ display: flex; 
+justify-content:center; 
+background-color :goldenrod;
+align-items: center;
+color:#00153e;
+height: 30%;
+width: 98%;
+margin-left: 15px;
+padding-bottom: 2%;
+}
+.anonceP{
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  font-weight: 600;
+}
+.video{
+  width: 70%;
+  height: 50%;
+  margin: 10px;
 }
